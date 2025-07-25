@@ -20,37 +20,37 @@ HTML (HyperText Markup Language) là ngôn ngữ đánh dấu dùng để xây d
 |Thẻ|Chức năng| 
 |---|---------|
 |<!DOCTYPE html>| Khai báo kiểu tài liệu HTML5|
-|<html>| Thẻ bao toàn bộ trang|
-|<head>| Chứa thông tin meta, tiêu đề <title>, CSS, script|
-|<title>| Tiêu đề tab trình duyệt |
-|<meta charset="UTF-8">|Khai báo bảng mã UTF-8 (hỗ trợ tiếng Việt)|
-|<body>|Phần hiển thị chính của trang (nội dung người dùng nhìn thấy)|
+|`<html>`| Thẻ bao toàn bộ trang|
+|`<head>`| Chứa thông tin meta, tiêu đề <title>, CSS, script|
+|`<title>`| Tiêu đề tab trình duyệt |
+|`<meta charset="UTF-8">`|Khai báo bảng mã UTF-8 (hỗ trợ tiếng Việt)|
+|`<body>`|Phần hiển thị chính của trang (nội dung người dùng nhìn thấy)|
 
 ### 1. Các thẻ văn bản ###
 |Thẻ|Chức năng|
 |---|---------|
-|<h1> đến <h6>| Tiêu đề văn bản từ lớn đến nhỏ|
-|<p>|Đoạn văn|
-|<br>|Xuống dòng|
-|<hr>|Kẻ đường ngang|
-|<strong> hoặc <b>|In đậm|
-|<em> hoặc <i>|In nghiêng|
-|<span>| Nội dung nhỏ, để định dạng một phần nội dung|
-|<div>|Khối nội dung (phân vùng giao diện)|
+|`<h1>` đến `<h6>`| Tiêu đề văn bản từ lớn đến nhỏ|
+|`<p>`|Đoạn văn|
+|`<br>`|Xuống dòng|
+|`<hr>`|Kẻ đường ngang|
+|`<strong>` hoặc `<b>`|In đậm|
+|`<em>` hoặc `<i>`|In nghiêng|
+|`<span>`| Nội dung nhỏ, để định dạng một phần nội dung|
+|`<div>`|Khối nội dung (phân vùng giao diện)|
 
 ### 2. Liên kết và ảnh ###
 |Thẻ|Chức năng|
 |---|---------|
-|<a href="...">|Tạo liên kết|
-|<img src="..." alt="...">| Hiển thị hình ảnh|
+|`<a href="...">`|Tạo liên kết|
+|`<img src="..." alt="...">`| Hiển thị hình ảnh|
 
 ### 3. Biểu mẫu (Form) nhập liệu ###
 |Thẻ|Chức năng|
 |---|---------|
-|<form>| Khung biểu mẫu|
-|<input>| Nhập liệu (text, number,...)|
-|<textarea>|Nhập nội dung dài|
-|<button> hoặc <input type="submit">|Nút gửi dữ liệu|
+|`<form>`| Khung biểu mẫu|
+|`<input>`| Nhập liệu (text, number,...)|
+|`<textarea>`|Nhập nội dung dài|
+|`<button>` hoặc `<input type="submit">`|Nút gửi dữ liệu|
 
 Ví du:
 ```html
@@ -63,11 +63,11 @@ Ví du:
 ### 4. Thẻ giao diện nâng cao ###
 |Thẻ|Chức năng|
 |---|---------|
-|<table>|Bảng dữ liệu|
-|<ul>/<ol>|Danh sách (unordered/ordered)|
-|<li>|Mỗi mục trong danh sách|
-|<script>|Dùng để nhúng Javascript|
-|<style>|Dùng để viết CSS nội trang|
+|`<table>`|Bảng dữ liệu|
+|`<ul>/<ol>`|Danh sách (unordered/ordered)|
+|`<li>`|Mỗi mục trong danh sách|
+|`<script>`|Dùng để nhúng Javascript|
+|`<style>`|Dùng để viết CSS nội trang|
 
 ## Các thuộc tính chung cho mọi thẻ HTML ## 
 |Thuộc tính| Mô tả|
